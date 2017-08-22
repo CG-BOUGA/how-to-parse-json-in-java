@@ -1,0 +1,7 @@
+title: How to parse JSON in Java
+plan:
+  - statement: statement.md
+projects:
+  java:
+    root: /java-project
+    runner: techio/java-maven-runner:1.0.0
