@@ -1,5 +1,7 @@
 // { autofold
-import com.google.gson.*;
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 public class GSON {
 
@@ -8,7 +10,7 @@ public static void main(String[] args) throws Exception {
 
 String json = "{\"name\": \"Bob\", \"id\": \"123\"}";
 
-// Method 1: parsing into a JSON tree
+// Method 1: parsing into a JSON element
 JsonObject jsonObject = new JsonParser().parse(json).getAsJsonObject();
 System.out.println(jsonObject.get("name").getAsString());
 
