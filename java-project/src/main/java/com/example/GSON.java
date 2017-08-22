@@ -9,7 +9,7 @@ class User {
     String name;
 }
 
-// autofold
+// { autofold
 public class GSON {
 
 public static void main(String[] args) throws Exception {
@@ -23,7 +23,7 @@ System.out.println(jsonObject.get("name").getAsString());
 
 // Method 2: parsing into a Java Object
 User user = new Gson().fromJson(json, User.class);
-System.out.println(user.name);
+System.out.println(user.id);
 
 // { autofold
 }
