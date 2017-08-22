@@ -1,7 +1,7 @@
-# Using [GSON](http://mvnrepository.com/artifact/com.google.code.gson/gson)
+# Using [Gson](http://mvnrepository.com/artifact/com.google.code.gson/gson)
 
 @[]({
-  "stubs": ["src/main/java/com/example/GSON.java"],
-  "command": "com.example.GSON"
+  "stubs": ["src/main/java/GSON.java", "src/main/java/User.java"],
+  "command": "GSON"
 })
 

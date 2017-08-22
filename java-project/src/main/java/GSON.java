@@ -1,15 +1,6 @@
 // { autofold
-package com.example;
-
 import com.google.gson.*;
-// }
 
-class User {
-    int id;
-    String name;
-}
-
-// { autofold
 public class GSON {
 
 public static void main(String[] args) throws Exception {
