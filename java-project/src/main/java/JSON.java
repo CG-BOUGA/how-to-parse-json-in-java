@@ -3,7 +3,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-public class GSON {
+public class JSON {
 
 public static void main(String[] args) throws Exception {
 // }
