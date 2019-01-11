@@ -1,7 +1,10 @@
-title: How to parse JSON in Java
+title: !!binary |-
+  8J+RqOKAjfCfjpMgSG93IHRvIHBhcnNlIEpTT04gaW4gSmF2YQ==
 plan:
-  - statement: statement.md
+- statement: statement.md
 projects:
   java:
     root: /java-project
-    runner: techio/java-maven-runner:1.0.0
+    runner:
+      name: techio/java-maven-runner
+      version: 1.0.0
